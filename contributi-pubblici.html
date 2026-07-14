@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contributi pubblici ricevuti | Sogni di Carta APS</title>
+<meta name="description" content="Elenco dei contributi pubblici ricevuti da Sogni di Carta APS, nel rispetto dei principi di trasparenza previsti per gli Enti del Terzo Settore.">
+<link rel="icon" href="assets/img/logo-sogni-di-carta.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="header-inner">
+    <a href="index.html" class="brand">
+      <img src="assets/img/logo-sogni-di-carta.jpg" alt="Logo Sogni di Carta APS">
+      <span class="brand-text">
+        <span class="name">Sogni di Carta</span>
+        <span class="tag">APS &middot; ETS</span>
+      </span>
+    </a>
+    <button class="nav-toggle" aria-label="Apri menu"><span></span><span></span><span></span></button>
+    <nav class="main-nav">
+      <a href="index.html">Home</a>
+      <a href="chi-siamo.html">Chi siamo</a>
+      <a href="festival-crocevia-ionio.html">Festival Crocevia per lo Ionio</a>
+      <a href="eventi.html">Eventi</a>
+      <a href="contributi-pubblici.html" class="active">Contributi pubblici</a>
+      <a href="sostienici.html">Sostienici</a>
+      <a href="contatti.html">Contatti</a>
+    </nav>
+  </div>
+</header>
+
+<section class="hero" style="padding:60px 0 80px;">
+  <div class="container">
+    <span class="hero-badge">Trasparenza</span>
+    <h1>Contributi pubblici ricevuti</h1>
+    <p class="lead">Nel rispetto dei principi di trasparenza e correttezza previsti per gli Enti del Terzo Settore, Sogni di Carta APS pubblica l'elenco dei contributi pubblici ricevuti.</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+
+    <!--
+      TEMPLATE — per aggiungere un nuovo contributo, copia una riga <tr> e compila i campi:
+      <tr>
+        <td>2026</td>
+        <td>Nome dell'ente erogante</td>
+        <td>Importo in euro</td>
+        <td>Finalità del contributo</td>
+      </tr>
+    -->
+
+    <div style="overflow-x:auto;">
+      <table class="contrib-table">
+        <thead>
+          <tr>
+            <th>Anno</th>
+            <th>Ente erogante</th>
+            <th>Importo</th>
+            <th>Finalità</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td colspan="4" class="muted">Dati in aggiornamento &mdash; nessun contributo pubblicato al momento.</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <div class="footer-brand">
+          <img src="assets/img/logo-sogni-di-carta.jpg" alt="Logo Sogni di Carta APS">
+          <span>Sogni di Carta APS</span>
+        </div>
+        <p>Associazione di Promozione Sociale &middot; Ente del Terzo Settore<br>Via Duca degli Abruzzi, 15 &mdash; 73048 Nardò (LE)</p>
+      </div>
+      <div>
+        <h4>Esplora</h4>
+        <ul class="footer-links">
+          <li><a href="chi-siamo.html">Chi siamo</a></li>
+          <li><a href="festival-crocevia-ionio.html">Festival Crocevia per lo Ionio</a></li>
+          <li><a href="eventi.html">Eventi</a></li>
+          <li><a href="contributi-pubblici.html">Contributi pubblici</a></li>
+          <li><a href="sostienici.html">Sostienici</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Contatti</h4>
+        <ul class="footer-links">
+          <li><a href="mailto:sognidicarta24@gmail.com">sognidicarta24@gmail.com</a></li>
+          <li>PEC: sognidicarta24@pec.it</li>
+          <li>C.F. 93171470755</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; <span id="year"></span> Sogni di Carta APS &mdash; Tutti i diritti riservati</span>
+      <span>Iscrizione RUNTS &mdash; Determina Regione Puglia n. 01067 del 29/07/2025</span>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/js/main.js"></script>
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
