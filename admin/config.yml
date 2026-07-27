@@ -1,0 +1,37 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "assets/img/pending"
+public_folder: "/assets/img/pending"
+
+locale: "it"
+
+collections:
+  - name: "pending"
+    label: "Nuovo contenuto"
+    label_singular: "Contenuto"
+    folder: "content/pending"
+    create: true
+    format: "frontmatter"
+    slug: "{{year}}-{{month}}-{{day}}-{{hour}}{{minute}}{{second}}"
+    summary: "{{categoria}} — {{fields.body}}"
+    fields:
+      - label: "Categoria"
+        name: "categoria"
+        widget: "select"
+        options:
+          - "Festival Crocevia per lo Ionio"
+          - "Eventi"
+          - "News"
+          - "Contributi pubblici"
+        hint: "Scegli la pagina del sito su cui deve essere pubblicato."
+      - label: "Immagine"
+        name: "immagine"
+        widget: "image"
+        required: false
+        hint: "Facoltativa. La locandina o foto dell'evento."
+      - label: "Testo"
+        name: "body"
+        widget: "text"
+        hint: "Incolla il testo così com'è, senza preoccuparti della formattazione: ci penserà l'automazione."
