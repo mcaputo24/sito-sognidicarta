@@ -54,28 +54,49 @@
 </section>
 
 <section class="section section-alt">
-  <div class="container" style="max-width:760px;">
-    <div class="section-head" style="text-align:left;max-width:100%;margin-bottom:28px;">
-      <span class="eyebrow">Aspettando Crocevia</span>
-      <h2>Aspettando... Crocevia per lo Ionio Festival</h2>
-      <p>Nel mese che precede il festival, una serie di incontri anticipa i temi della rassegna.</p>
-    </div>
+  <div class="container" style="max-width:820px;">
 
     <!--
-      TEMPLATE — copia questo blocco per aggiungere un nuovo appuntamento
-      "Aspettando... Crocevia", incollalo SOPRA gli altri (ordine cronologico
-      decrescente, il più recente in cima) e compila i campi.
-      L'immagine è opzionale: se non c'è, rimuovi il tag <img>.
+      STRUTTURA PER EDIZIONE — ogni edizione del festival vive dentro il proprio
+      .edition-block. L'edizione in corso resta sempre IN CIMA; quando si apre una
+      nuova edizione, si copia questo blocco intero (vuoto) e lo si incolla SOPRA
+      il blocco dell'edizione precedente, che scala verso il basso.
 
-      <article class="news-card">
-        <img src="assets/img/festival/nome-file.jpg" alt="Descrizione locandina">
-        <div class="news-card-body">
-          <div class="news-date">Sabato 18 luglio 2026 · ore 20:30</div>
-          <h3>Titolo dell'incontro</h3>
-          <p>Testo descrittivo.</p>
+      <div class="edition-block">
+        <div class="edition-head">
+          <span class="edition-year">AAAA</span>
+          <h2>Numero edizione</h2>
+          <p class="edition-dates">Date &middot; Nardò (LE)</p>
         </div>
-      </article>
+        ... card degli eventi di questa edizione ...
+      </div>
     -->
+
+    <div class="edition-block">
+      <div class="edition-head">
+        <span class="edition-year">2026</span>
+        <h2>VII edizione</h2>
+        <p class="edition-dates">26, 27 e 28 agosto 2026 &middot; Nardò (LE)</p>
+      </div>
+
+      <h3 class="edition-subhead">Aspettando... Crocevia per lo Ionio Festival</h3>
+      <p>Nel mese che precede il festival, una serie di incontri anticipa i temi della rassegna.</p>
+
+      <!--
+        TEMPLATE — copia questo blocco per aggiungere un nuovo appuntamento
+        "Aspettando... Crocevia", incollalo SOPRA gli altri (ordine cronologico
+        decrescente, il più recente in cima) e compila i campi.
+        L'immagine è opzionale: se non c'è, rimuovi il tag <img>.
+
+        <article class="news-card">
+          <img src="assets/img/festival/nome-file.jpg" alt="Descrizione locandina">
+          <div class="news-card-body">
+            <div class="news-date">Sabato 18 luglio 2026 · ore 20:30</div>
+            <h3>Titolo dell'incontro</h3>
+            <p>Testo descrittivo.</p>
+          </div>
+        </article>
+      -->
 
     <article class="news-card">
       <img src="assets/img/festival/aspettando-sergio-rizzo.jpg" alt="Locandina: Aspettando... Crocevia per lo Ionio Festival, Sergio Rizzo presenta 2027. Fuga dalla democrazia">
@@ -135,18 +156,18 @@ Con il patrocinio del Comune di Nardò e del Delegato alla Cultura Francesco Pla
 L'evento è organizzato dall'Associazione Sogni di Carta con la collaborazione del Presidio del Libro di Nardò e della Libreria Fiore Mondadori Point di Nardò; del Museo Diocesano e della Biblioteca Diocesana; dell'Associazione Italiana di Cultura Classica e del Liceo Galileo Galilei di Nardò, con il patrocinio del Comune di Nardò e dell'Assessore alla Cultura Francesco Plantera.</p>
       </div>
     </article>
-  </div>
-</section>
 
-<section class="section">
-  <div class="container">
-    <div class="section-head">
-      <span class="eyebrow">Programma</span>
-      <h2>VII edizione &mdash; 26, 27 e 28 agosto 2026</h2>
+      <h3 class="edition-subhead">Programma del festival</h3>
+
+      <!-- TEMPLATE per una giornata di programma: stesso blocco .news-card usato sopra -->
+
+      <div class="notice">
+        Il programma completo della VII edizione sarà pubblicato in questa sezione non appena disponibile. Per restare aggiornato, consulta anche la pagina <a href="eventi.html">Eventi</a>.
+      </div>
     </div>
-    <div class="notice" style="max-width:640px;margin:0 auto;">
-      Il programma completo della VII edizione sarà pubblicato in questa pagina non appena disponibile. Per restare aggiornato, consulta anche la pagina <a href="eventi.html">Eventi</a>.
-    </div>
+
+    <!-- Le edizioni precedenti (VI, V, ...) troveranno posto qui sotto, un .edition-block ciascuna -->
+
   </div>
 </section>
 

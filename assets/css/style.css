@@ -384,6 +384,30 @@ ul.check-list li::before{
 .event-body p{ margin-bottom: 6px; }
 .event-meta{ font-size: .85rem; color: var(--gold); font-weight: 600; }
 
+/* Festival editions */
+.edition-block{
+  margin-bottom: 56px;
+  padding-bottom: 48px;
+  border-bottom: 2px solid var(--paper-2);
+}
+.edition-block:last-child{ margin-bottom: 0; padding-bottom: 0; border-bottom: none; }
+.edition-head{ margin-bottom: 30px; }
+.edition-year{
+  display: inline-block;
+  background: var(--navy);
+  color: #fff;
+  font-family: 'Playfair Display', Georgia, serif;
+  font-weight: 700;
+  padding: 4px 16px;
+  border-radius: 999px;
+  font-size: .85rem;
+  letter-spacing: .03em;
+  margin-bottom: 12px;
+}
+.edition-head h2{ margin-bottom: 6px; }
+.edition-dates{ color: var(--gold); font-weight: 600; margin-bottom: 0; }
+.edition-subhead{ margin: 40px 0 8px; }
+
 /* News cards */
 .news-card{
   background: #fff;
