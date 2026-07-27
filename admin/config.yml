@@ -1,6 +1,9 @@
 backend:
-  name: git-gateway
+  name: github
+  repo: mcaputo24/sito-sognidicarta
   branch: main
+  base_url: https://api.netlify.com
+  auth_endpoint: auth
 
 media_folder: "assets/img/pending"
 public_folder: "/assets/img/pending"
