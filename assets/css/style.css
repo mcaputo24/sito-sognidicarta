@@ -408,6 +408,16 @@ ul.check-list li::before{
 .edition-dates{ color: var(--gold); font-weight: 600; margin-bottom: 0; }
 .edition-subhead{ margin: 40px 0 8px; }
 
+.program-day{ margin: 28px 0; }
+.program-day-head{
+  font-family: 'Playfair Display', Georgia, serif;
+  color: var(--navy);
+  font-size: 1.15rem;
+  margin: 0 0 14px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid var(--paper-2);
+}
+
 /* News cards */
 .news-card{
   background: #fff;

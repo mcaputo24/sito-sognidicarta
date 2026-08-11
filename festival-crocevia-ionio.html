@@ -79,15 +79,66 @@
         <p class="edition-dates">26, 27 e 28 agosto 2026 &middot; Nardò (LE)</p>
       </div>
 
-      <!--
-        TUTTI gli appuntamenti dell'edizione (sia "Aspettando..." che i giorni
-        veri e propri del festival) vivono in un'UNICA lista, in ordine
-        cronologico DECRESCENTE per data/ora dell'evento — il più recente/
-        prossimo in cima, indipendentemente dal fatto che sia un evento di
-        avvicinamento o una data del programma ufficiale.
+      <h3 class="edition-subhead">Programma del festival</h3>
+      <p>Le serate dell'edizione in corso, in ordine di svolgimento.</p>
 
-        TEMPLATE — copia questo blocco per aggiungere un nuovo appuntamento,
-        incollalo nella posizione cronologica corretta e compila i campi.
+      <!--
+        PROGRAMMA — raggruppato per serata (un blocco .program-day per
+        ciascuna data del festival, in ordine di calendario: prima il 26
+        agosto, poi il 27, poi il 28). Dentro ogni .program-day gli eventi
+        vanno in ordine CRESCENTE di orario (il primo della serata in alto).
+        Aggiungi un nuovo .program-day quando si apre una nuova serata.
+
+        <div class="program-day">
+          <h4 class="program-day-head">Giorno DD agosto</h4>
+          <article class="news-card">
+            <img src="assets/img/festival/nome-file.jpg" alt="Descrizione locandina">
+            <div class="news-card-body">
+              <div class="news-date">ore HH:MM</div>
+              <h3>Titolo dell'incontro</h3>
+              <p>Testo descrittivo.</p>
+            </div>
+          </article>
+        </div>
+      -->
+
+      <div class="program-day">
+        <h4 class="program-day-head">Mercoledì 26 agosto</h4>
+
+        <article class="news-card">
+          <img src="assets/img/festival/barbara-alberti.png" alt="Barbara Alberti presenta Gelosia (Piemme)">
+          <div class="news-card-body">
+            <div class="news-date">ore 20:40</div>
+            <h3>Barbara Alberti &mdash; <em>Gelosia</em></h3>
+            <p>Barbara Alberti è una celebre scrittrice, giornalista e sceneggiatrice. Per molti anni è stata curatrice della rubrica delle lettere di <em>Amica</em> e ha costruito nel tempo una produzione che attraversa romanzi, saggi e biografie fantastiche. Con il suo stile ironico, anticonvenzionale e sempre diretto, Alberti arriva a Crocevia per lo Ionio per presentare <em>Gelosia</em> (Piemme), il suo ultimo libro, e affrontare uno dei sentimenti più complessi e comuni nelle relazioni umane.</p>
+          </div>
+        </article>
+
+        <article class="news-card">
+          <img src="assets/img/festival/mario-perrotta.jpg" alt="Mario Perrotta in scena con Come una specie di vertigine. Il Nano, Calvino, la libertà">
+          <div class="news-card-body">
+            <div class="news-date">ore 21:30</div>
+            <h3>Mario Perrotta &mdash; <em>Come una specie di vertigine. Il Nano, Calvino, la libertà</em></h3>
+            <p>Per il secondo appuntamento della prima serata di <em>Crocevia per lo Ionio &ndash; Il Festival della Cultura</em>, salirà sul palco <strong>Mario Perrotta</strong>, autore, attore e regista teatrale tra le voci più significative del panorama italiano, vincitore di 5 Premi UBU e di numerosi altri riconoscimenti.
+
+Porterà in scena <em>Come una specie di vertigine. Il Nano, Calvino, la libertà</em>, uno spettacolo che intreccia teatro e letteratura per riflettere sul tema della libertà attraverso l'universo di <strong>Italo Calvino</strong>.
+
+<strong>Piazza Cesare Battisti</strong> &mdash; Nardò (LE)</p>
+          </div>
+        </article>
+      </div>
+
+      <div class="notice">
+        Il programma di giovedì 27 e venerdì 28 agosto sarà pubblicato in questa pagina non appena confermato.
+      </div>
+
+      <h3 class="edition-subhead">Aspettando... Crocevia per lo Ionio Festival</h3>
+      <p>Nel mese che precede il festival, una serie di incontri anticipa i temi della rassegna. In ordine cronologico decrescente, il più recente in cima.</p>
+
+      <!--
+        TEMPLATE — copia questo blocco per aggiungere un nuovo appuntamento
+        "Aspettando... Crocevia", incollalo SOPRA gli altri (ordine cronologico
+        decrescente, il più recente in cima) e compila i campi.
         L'immagine è opzionale: se non c'è, rimuovi il tag <img>.
 
         <article class="news-card">
@@ -99,28 +150,6 @@
           </div>
         </article>
       -->
-
-    <article class="news-card">
-      <img src="assets/img/festival/mario-perrotta.jpg" alt="Mario Perrotta in scena con Come una specie di vertigine. Il Nano, Calvino, la libertà">
-      <div class="news-card-body">
-        <div class="news-date">Mercoledì 26 agosto 2026 &middot; ore 21:30</div>
-        <h3>Mario Perrotta &mdash; <em>Come una specie di vertigine. Il Nano, Calvino, la libertà</em></h3>
-        <p>Per il secondo appuntamento della prima serata di <em>Crocevia per lo Ionio &ndash; Il Festival della Cultura</em>, salirà sul palco <strong>Mario Perrotta</strong>, autore, attore e regista teatrale tra le voci più significative del panorama italiano, vincitore di 5 Premi UBU e di numerosi altri riconoscimenti.
-
-Porterà in scena <em>Come una specie di vertigine. Il Nano, Calvino, la libertà</em>, uno spettacolo che intreccia teatro e letteratura per riflettere sul tema della libertà attraverso l'universo di <strong>Italo Calvino</strong>.
-
-<strong>Piazza Cesare Battisti</strong> &mdash; Nardò (LE)</p>
-      </div>
-    </article>
-
-    <article class="news-card">
-      <img src="assets/img/festival/barbara-alberti.png" alt="Barbara Alberti presenta Gelosia (Piemme)">
-      <div class="news-card-body">
-        <div class="news-date">Mercoledì 26 agosto 2026 &middot; ore 20:40</div>
-        <h3>Barbara Alberti &mdash; <em>Gelosia</em></h3>
-        <p>Barbara Alberti è una celebre scrittrice, giornalista e sceneggiatrice. Per molti anni è stata curatrice della rubrica delle lettere di <em>Amica</em> e ha costruito nel tempo una produzione che attraversa romanzi, saggi e biografie fantastiche. Con il suo stile ironico, anticonvenzionale e sempre diretto, Alberti arriva a Crocevia per lo Ionio per presentare <em>Gelosia</em> (Piemme), il suo ultimo libro, e affrontare uno dei sentimenti più complessi e comuni nelle relazioni umane.</p>
-      </div>
-    </article>
 
     <article class="news-card">
       <img src="assets/img/festival/aspettando-sergio-rizzo.jpg" alt="Locandina: Aspettando... Crocevia per lo Ionio Festival, Sergio Rizzo presenta 2027. Fuga dalla democrazia">
@@ -180,10 +209,6 @@ Con il patrocinio del Comune di Nardò e del Delegato alla Cultura Francesco Pla
 L'evento è organizzato dall'Associazione Sogni di Carta con la collaborazione del Presidio del Libro di Nardò e della Libreria Fiore Mondadori Point di Nardò; del Museo Diocesano e della Biblioteca Diocesana; dell'Associazione Italiana di Cultura Classica e del Liceo Galileo Galilei di Nardò, con il patrocinio del Comune di Nardò e dell'Assessore alla Cultura Francesco Plantera.</p>
       </div>
     </article>
-
-      <div class="notice">
-        Il programma completo della VII edizione sarà pubblicato via via in questa pagina, man mano che i nuovi appuntamenti vengono confermati.
-      </div>
     </div>
 
     <!-- Le edizioni precedenti (VI, V, ...) troveranno posto qui sotto, un .edition-block ciascuna -->
